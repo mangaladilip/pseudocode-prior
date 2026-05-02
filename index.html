@@ -27,7 +27,8 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
   html {
-    /* Scales all font sizes relative to iframe width so text is readable at any iframe size */
+    /* Base font scales with iframe width to match ~50px Genially slide font size.
+       vw = % of the iframe's own width. Adjust multiplier if needed. */
     font-size: clamp(16px, 3.8vw, 60px);
   }
 
